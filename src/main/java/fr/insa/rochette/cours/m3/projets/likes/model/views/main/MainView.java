@@ -44,9 +44,9 @@ public class MainView extends HorizontalLayout{
         add(name, sayHello);
         
         PasswordField passwordField = new PasswordField();
-       // passwordField.setLabel("Password");
-        //passwordField.setValue("Ex@mplePassw0rd");
-       // add(passwordField);        
+        passwordField.setLabel("Password");
+        passwordField.setValue("Ex@mplePassw0rd");
+        add(passwordField);        
      
 
     }
